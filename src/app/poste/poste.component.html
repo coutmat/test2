@@ -1,0 +1,8 @@
+li class="list-group-item">
+<li [ngClass]="{'list-group-item': true,
+                'list-group-item-success': status === 'cc',
+                'list-group-item-danger': status === 'cc',
+                'list-group-int'}">
+
+  <h4 [ngStyle]="{color: getColor()}">{{ name }} </h4>
+</li>
