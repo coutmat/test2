@@ -20,8 +20,19 @@ export class PosteComponent implements OnInit {
     } else if(this.status === '0') {
       return 'red';
     } else{
-      return 'white';
+      return 'black';
     }
   }
 
+  getstatut(nb) {
+
+    if(nb === '1'){
+      this.status = '1';
+    }else if(nb === '0'){
+      this.status = '0';
+    }
+
+  }
+
+  lastUpdate = new Date();
 }

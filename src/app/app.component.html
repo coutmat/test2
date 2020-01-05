@@ -3,10 +3,10 @@
     <div class="col-xs-12">
       <h1>{{title}}</h1>
       <ul class="list-group">
-      <app-poste *ngFor="let post of post"
-                 [name]="post.name"
-                 [status]="post.status"
-                 [description]="post.description"></app-poste>
+      <app-poste *ngFor="let p of post"
+                 [name]="p.name"
+                 [status]="p.status"
+                 [description]="p.description"></app-poste>
       </ul>
 
    </div>

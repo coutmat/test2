@@ -11,17 +11,17 @@ export class AppComponent {
   post = [
     {
       name: 'Mon premier post',
-      description: 'cc',
+      description: 'Lorem ipsum dolor sit amet,consecteur adipiscing elit, sed do elusmod tempor incididunt ut labore et dolcre magna aliqua.Ut enim minim ad miniù veniaù, quis',
       status: ''
     },
     {
       name: 'Mon deuxième post',
-      description: 'cc',
+      description: 'Lorem ipsum dolor sit amet,consecteur adipiscing elit, sed do elusmod tempor incididunt ut labore et dolcre magna aliqua.Ut enim minim ad miniù veniaù, quis',
       status: ''
     },
     {
       name: 'Encore un post',
-      description: 'cc',
+      description: 'Lorem ipsum dolor sit amet,consecteur adipiscing elit, sed do elusmod tempor incididunt ut labore et dolcre magna aliqua.Ut enim minim ad miniù veniaù, quis',
       status: ''
     }
 

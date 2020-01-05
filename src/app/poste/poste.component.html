@@ -1,8 +1,9 @@
-li class="list-group-item">
 <li [ngClass]="{'list-group-item': true,
-                'list-group-item-success': status === 'cc',
-                'list-group-item-danger': status === 'cc',
-                'list-group-int'}">
-
+                'list-group-item-success': status === '1',
+                'list-group-item-danger': status === '0',
+                'list-group-int' : status === null}">
+  <p class="text-right text-break">{{ lastUpdate | date: 'MM/dd/y, h:mm a' | uppercase }}</p>
   <h4 [ngStyle]="{color: getColor()}">{{ name }} </h4>
-</li>
+  <p [ngStyle]="{color: getColor()}">{{ description }}</p>
+  <button type="button" class="btn btn-success" (click)="getstatut('1')">Love IT!</button>
+  <button type="button" class="btn btn-danger" (click)="getstatut('0')">Don't love!</button>
